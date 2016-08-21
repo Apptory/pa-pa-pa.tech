@@ -1,0 +1,42 @@
+/* base.css */
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+body,html
+{
+	font-family: 'Open Sans Hebrew', sans-serif;
+}
+
+.root
+{
+	position: fixed;;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	cursor: pointer;
+	z-index: 200;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1
+{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: #696969;
+}
+
+.anat
+{
+	position: absolute;
+}
+.credit
+{
+	    position: fixed;
+    bottom: 0;
+    font-size: 0.8em;
+        z-index: 201;
+}
