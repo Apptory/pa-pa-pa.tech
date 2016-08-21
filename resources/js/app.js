@@ -6,6 +6,11 @@ var counter = 0;
 
 $(document).ready(function() {
 
+	$.each(anat, function(index, element) {
+		$("<img>").attr("src", base + element).load();
+	});
+
+
 	$(".root").click(function(event) {
 
 		$("h1").hide();
